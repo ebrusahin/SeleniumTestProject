@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ECommerceDBModelStoreContainer" CdmEntityContainer="ECommerceDBEntities">
+    <EntitySetMapping Name="T_Product">
+      <EntityTypeMapping TypeName="ECommerceDBModel.T_Product">
+        <MappingFragment StoreEntitySet="T_Product">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="companyName" ColumnName="companyName" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="keyword" ColumnName="keyword" />
+          <ScalarProperty Name="discount" ColumnName="discount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
